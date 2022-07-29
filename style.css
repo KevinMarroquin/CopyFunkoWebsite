@@ -1,0 +1,78 @@
+#navBar1 {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#navBar2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 100px;
+    /* border: 3px solid gray; */
+    text-align:justify;
+    
+}
+
+#navBar2 img{   
+    width: 100px;
+    height: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: 3px solid gray;
+}
+
+ 
+.navItems a:hover {
+    background-color: white;
+    color: black;
+}
+
+.navItems a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Helvetica;
+    font-size: 25px;	
+    padding: 10px;
+    color: white;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+#AD_title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#AD_title img {
+    width: 30px;
+}
+#AD1 {
+    display: flex;
+    justify-content: center;
+}
+
+#ADs {
+    display:flex;
+    justify-content: center;
+}
+
+#release_Title {
+    font-weight: 800;
+}
+#listings {
+    display: flex;
+    justify-content: center;
+}
+
+.pop {
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+}
+
+.description {
+    font-weight: 1000;
+}
